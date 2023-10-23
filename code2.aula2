@@ -1,0 +1,22 @@
+package minin;
+import java.util.Scanner;
+
+public class aula01 {
+    public static void main(String[] args) {
+    	Scanner scan = new Scanner(System.in);
+    	int funcionarios;
+    	int horas;
+    	double salario;
+    	double ph;
+    	
+    	System.out.println("Num do funcionarios: ");
+    	funcionarios = scan.nextInt();
+    	System.out.println("Horas:");
+    	horas = scan.nextInt();
+    	System.out.println("Reais por hora:");
+    	ph = scan.nextInt();
+    	salario = horas * ph;
+    	System.out.printf("Num do funcionario: %d %nSalario: %.2f",funcionarios,salario);
+    	
+    }
+}
